@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Hand';
+    src: url('fonts/Adorable\ Handmade.ttf') format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*alinhamento de fontes:
+text-align, text-indent para o parágrafo*/
+
+h1 {
+    font-family: 'Hand';
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px
+}
+;
